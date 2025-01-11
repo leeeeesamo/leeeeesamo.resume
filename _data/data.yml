@@ -5,12 +5,12 @@
 sidebar:
     position: left # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Leesa Moore
     tagline: Customer Service Manager & IT Professional
-    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    ## avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: lmoore0510@gmail.com
@@ -21,7 +21,7 @@ sidebar:
     linkedin: leesa-moore
     github: leeeeesamo
     # twitter: 
-    pdf: /assets/resumes/Customer_Service_Resume.pdf # Add a PDF link to your resume for easy download.
+    ## pdf: /assets/resumes/Customer_Service_Resume.pdf # Add a PDF link to your resume for easy download.
 
     languages:
       title: Languages
@@ -29,113 +29,99 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: Spanish
-          level: Conversational
-
     interests:
       title: Interests
       info:
-        - item: Reading
-        - item: Traveling
-        - item: Technology
+        - item: Leadership Development
+        - item: Technology Innovations
+        - item: Reading & Personal Growth
 
 career-profile:
     title: Career Profile
     summary: |
-      Dynamic and results-driven professional with extensive experience in customer service and IT management. 
-      Proven expertise in fostering collaborative environments, streamlining operations, and exceeding client expectations. 
-      Passionate about implementing innovative solutions and driving process improvements.
+      Dynamic and results-driven professional with extensive experience in customer service, IT management, and team leadership. Skilled in streamlining operations, managing technical systems, and exceeding client expectations. Passionate about leveraging technology to improve efficiency and drive success.
 
 education:
     title: Education
     info:
       - degree: Associate of Business Administration
         university: Southern New Hampshire University
-        time: 2022 - Present
+        time: 2022 – Present
         details: |
           Achievements:
-            - President’s List, Honors Society
+            - President’s List
+            - Honor Society Member
             - GPA: 3.87
 
       - degree: High School Diploma
         university: Pell City, AL
         time: 2002
 
+certifications:
+    title: Certifications
+    list:
+      - name: Honor Society Membership
+        start: November 2022
+        organization: HonorSociety.org
+        credentialurl: https://honorsociety.org/membership
+
+      - name: President’s List Recognition
+        start: Multiple Terms (2022–2023)
+        organization: Southern New Hampshire University
+        
+      - name: Google Ads for Beginners
+        start: March 2021
+        organization: Coursera
+        credentialurl: https://coursera.org/verify/2E6AVZM7AEJS
+
 experiences:
-    title: Experience
+    title: Experiences
     info:
       - role: Reservations Manager
-        time: 2007 - Present
+        time: 2007 – Present
         company: MultiPoint Communications
         details: |
-          - Directed a proficient team in a fast-paced environment, ensuring accurate scheduling and seamless conference operations.
-          - Streamlined invoicing and payment processing using platforms such as Authorize.net and Ariba.
-          - Oversaw month-end financial deliverables, including aging and product revenue reports.
+          - Led a highly efficient team in a dynamic environment, ensuring accurate scheduling and flawless execution of conference operations.
+          - Optimized invoicing and payment workflows using platforms such as Authorize.net and Ariba, improving financial accuracy.
+          - Managed month-end financial reporting, including aging and product revenue analysis, to support informed decision-making.
+          - Cultivated excellent communication and organizational skills to consistently exceed client expectations.
 
       - role: IT Manager
-        time: 2018 - Present
+        time: 2018 – Present
         company: MultiPoint Communications
         details: |
-          - Resolved critical computer and server issues, minimizing downtime.
-          - Configured bridges and managed variables to ensure IT operations ran smoothly.
-          - Increased conversions by 15% through targeted digital marketing efforts.
+          - Diagnosed and resolved complex technical issues across servers and systems, maintaining uninterrupted operations.
+          - Configured and fine-tuned bridge variables to ensure optimal functionality of communication infrastructure.
+          - Developed and implemented digital marketing strategies, achieving a 15% increase in conversion rates.
+          - Conducted security audits and system enhancements to mitigate vulnerabilities and improve overall performance.
 
       - role: Virtual Assistant
-        time: 2022 - Present
+        time: 2022 – Present
         company: Freelance (Fiverr)
         details: |
-          - Delivered top-notch virtual assistance services, including client consultations and schedule coordination.
-          - Utilized Calendly and Google Sheets for task management.
-
-certifications:
-      title: Certifications
-      list:
-        - name: IT Management Certification
-          start: 2023
-          end: 2024
-          organization: Coursera
-          credentialid: 12345-ABC
-          credentialurl: https://coursera.org/cert/12345
-          details: |
-            Focused on IT systems management, project coordination, and risk mitigation.
-
-projects:
-    title: Projects
-    intro: >
-      Here are some of my key projects and contributions:
-    assignments:
-      - title: Veeam Backup Configuration
-        link: "#"
-        tagline: "Implemented and managed Veeam Backup solutions for secure and efficient data management."
-
-      - title: Streamlined Reservation System
-        link: "#"
-        tagline: "Automated scheduling and invoicing processes for improved efficiency at MultiPoint Communications."
-
-oss:
-    title: OSS Contributions
-    intro: >
-      Open source contributions relevant to my IT and software development background.
-    contributions:
-      - title: QuickBooks Integration for IT Services
-        link: "#"
-        tagline: "Streamlined QuickBooks usage through tailored integration solutions."
+          - Delivered client-centric scheduling and task management solutions, leveraging tools like Calendly and Google Sheets.
+          - Enhanced efficiency through meticulous documentation and streamlined processes for various client needs.
+          - Provided exceptional customer support and technical assistance, ensuring timely issue resolution.
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills & Proficiency
 
     toolset:
-      - name: IT Systems Management
+      - name: Leadership in Customer Service
         level: 95%
 
-      - name: Customer Service & Team Leadership
-        level: 98%
-
-      - name: Microsoft Office Suite (Advanced)
-        level: 95%
-
-      - name: Troubleshooting & Problem Solving
+      - name: Technical Problem Solving
         level: 90%
 
+      - name: Scheduling & Workflow Optimization
+        level: 95%
+
+      - name: Advanced Microsoft Office Suite
+        level: 95%
+
+      - name: Strategic Digital Marketing
+        level: 85%
+
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="https://leeeeesamo.github.io/" target="_blank">Leesa Moore</a>
+    Designed with ❤️ by <a href="https://leeeeesamo.github.io/" target="_blank">Leesa Moore</a>
