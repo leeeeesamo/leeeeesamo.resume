@@ -12,7 +12,7 @@ description: Welcome to my online portfolio, where creativity meets professional
 
 # Style settings
 theme_skin: ceramic # Choose from blue, turquoise, green, berry, orange, ceramic, teal, oceanstale
-chrome_mobile_color: "#1C1C1C" # Hex color for Chrome mobile search bar
+chrome_mobile_color: "#6C757D" # Hex color for Chrome mobile search bar
 
 # Tracker
 analytics: UA-83979019-1 # Google Analytics tracking ID
@@ -27,9 +27,12 @@ compress-site: yes
 
 encoding: "utf-8"
 compress_html:
-  clippings: all
   ignore:
     envs: development
+  endings: all
+  comments: all
+  blanklines: true
+  clippings: all
 
 # Development Settings
 port: 4000
