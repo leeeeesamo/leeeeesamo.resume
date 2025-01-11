@@ -14,45 +14,6 @@ This repository contains the source code for my personal portfolio website. The 
 ## Demo
 You can view the live website at: [MyPortfolioURL](https://leeeeesamo.github.io)
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. Install Jekyll and Bundler (if not already installed):
-   ```bash
-   gem install jekyll bundler
-   ```
-
-3. Install dependencies:
-   ```bash
-   bundle install
-   ```
-
-4. Run the website locally:
-   ```bash
-   bundle exec jekyll serve
-   ```
-   The website will be accessible at `http://localhost:4000`.
-
-## Deployment
-
-1. Commit your changes:
-   ```bash
-   git add .
-   git commit -m "Update portfolio"
-   ```
-
-2. Push the changes to the `main` branch (or your chosen deployment branch):
-   ```bash
-   git push origin main
-   ```
-
-3. GitHub Pages will automatically deploy the site.
-
 ## Customization
 
 - **Configuring the Website**: Update `_config.yml` to personalize your site (e.g., site title, description, and theme settings).
