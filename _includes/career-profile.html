@@ -1,6 +1,7 @@
 {% assign career_profile = site.data.data.career_profile %}
 {% if career_profile %}
-<section class="section summary-section">
+<section class="career-profile">
+  <h2>Career Profile</h2>
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -11,8 +12,7 @@
   </h2>
 
   <div class="summary">
-    <p>{{ career_profile.summary | markdownify }}</p>
+    {{ career_profile.summary | markdownify }}
   </div><!--//summary-->
-
-</section><!--//section-->
+</section>
 {% endif %}

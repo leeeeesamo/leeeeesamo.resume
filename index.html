@@ -2,36 +2,46 @@
 layout: default
 ---
 
-{% include career-profile.html %}
+<div class="content">
+  <!-- Career Profile -->
+  {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
+  <!-- Education -->
+  {% unless site.data.data.sidebar.education %}
+    {% include education.html %}
+  {% endunless %}
 
-{% include experiences.html %}
+  <!-- Experiences -->
+  {% include experiences.html %}
 
-{% include certifications.html %}
+  <!-- Certifications -->
+  {% include certifications.html %}
 
-{% include projects.html %}
+  <!-- Projects -->
+  {% include projects.html %}
 
-{% include oss-contributions.html %}
+  <!-- OSS Contributions -->
+  {% include oss-contributions.html %}
 
-{% include publications.html %}
+  <!-- Publications -->
+  {% include publications.html %}
 
-{% include skills.html %}
+  <!-- Skills -->
+  {% include skills.html %}
 
-<!-- Resumes Section -->
-<section id="resumes">
-  <h2>Resumes</h2>
-  <p>Click below to view or download my resumes:</p>
-  <ul>
-    <li>
-      <a href="/customer-service-manager.html">Customer Service Manager Resume</a> |
-      <a href="/assets/resumes/Customer Service Manager_Leesa Moore_2024 Resume.docx" download>Download</a>
-    </li>
-    <li>
-      <a href="/it-manager.html">IT Manager Resume</a> |
-      <a href="/assets/resumes/IT Manager_Leesa Moore_2024 Resume.docx" download>Download</a>
-    </li>
-  </ul>
-</section>
+  <!-- Resumes Section -->
+  <section id="resumes">
+    <h2>Resumes</h2>
+    <p>Click below to view or download my resumes:</p>
+    <ul>
+      <li>
+        <a href="/customer-service-manager.html">Customer Service Manager Resume</a> |
+        <a href="/assets/resumes/Customer Service Manager_Leesa Moore_2024 Resume.docx" download>Download</a>
+      </li>
+      <li>
+        <a href="/it-manager.html">IT Manager Resume</a> |
+        <a href="/assets/resumes/IT Manager_Leesa Moore_2024 Resume.docx" download>Download</a>
+      </li>
+    </ul>
+  </section>
+</div>

@@ -1,25 +1,27 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+# Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
 title: My Online Portfolio  
 url: 'https://leeeeesamo.github.io/' 
 
 # Change baseurl according to your repository name, or leave disabled for a custom domain
-#baseurl: '/online-cv'
+# baseurl: '/online-cv'
 
 # Description for SEO and meta tags
-description: Welcome to my online portfolio, where creativity meets professionalism. Explore my work, accomplishments, and career journey through an interactive showcase of my skills, experiences, and achievements. Featuring a detailed resume, comprehensive CV, and highlights of my projects, this portfolio offers a complete view of my professional expertise and aspirations.
+description: >
+  Welcome to my online portfolio, where creativity meets professionalism. 
+  Explore my work, accomplishments, and career journey through an interactive showcase of my skills, 
+  experiences, and achievements. Featuring a detailed resume, comprehensive CV, and highlights of my projects, 
+  this portfolio offers a complete view of my professional expertise and aspirations.
 
 # SEO and Social Media Tags
 social:
-  og_title: My Online Portfolio
-  og_description: Welcome to my online portfolio. Explore my professional journey and achievements.
-  og_image: /assets/images/portfolio-thumbnail.jpg # Add an image path
-  twitter_card: summary_large_image
-  twitter_site: @yourtwitterhandle # Replace with your Twitter username if available
+  og_title: "My Online Portfolio"
+  og_description: "My professional journey and achievements."
+  og_image: /assets/images/portfolio-thumbnail.jpg
 
 # Style settings
-theme_skin: ceramic # Choose from blue, turquoise, green, berry, orange, ceramic, teal, oceanstale
+theme_skin: blue # Choose from blue, turquoise, green, berry, orange, ceramic, teal, oceanstale
 chrome_mobile_color: "#6C757D" # Hex color for Chrome mobile search bar
 
 # Favicon path
