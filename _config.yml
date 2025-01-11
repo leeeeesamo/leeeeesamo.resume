@@ -10,9 +10,20 @@ url: 'https://leeeeesamo.github.io/'
 # Description for SEO and meta tags
 description: Welcome to my online portfolio, where creativity meets professionalism. Explore my work, accomplishments, and career journey through an interactive showcase of my skills, experiences, and achievements. Featuring a detailed resume, comprehensive CV, and highlights of my projects, this portfolio offers a complete view of my professional expertise and aspirations.
 
+# SEO and Social Media Tags
+social:
+  og_title: My Online Portfolio
+  og_description: Welcome to my online portfolio. Explore my professional journey and achievements.
+  og_image: /assets/images/portfolio-thumbnail.jpg # Add an image path
+  twitter_card: summary_large_image
+  twitter_site: @yourtwitterhandle # Replace with your Twitter username if available
+
 # Style settings
 theme_skin: ceramic # Choose from blue, turquoise, green, berry, orange, ceramic, teal, oceanstale
 chrome_mobile_color: "#6C757D" # Hex color for Chrome mobile search bar
+
+# Favicon path
+favicon: /assets/images/favicon.ico # Ensure favicon exists in the specified path
 
 # Tracker
 analytics: UA-83979019-1 # Google Analytics tracking ID
@@ -25,7 +36,6 @@ sass:
 # Build settings
 compress-site: yes
 
-encoding: "utf-8"
 compress_html:
   ignore:
     envs: development
@@ -38,3 +48,6 @@ compress_html:
 port: 4000
 host: 0.0.0.0
 safe: false
+
+# Encoding
+encoding: "utf-8"
