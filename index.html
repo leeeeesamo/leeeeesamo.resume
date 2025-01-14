@@ -30,18 +30,14 @@ layout: default
   {% include skills.html %}
 
   <!-- Resumes Section -->
-  <section id="resumes">
-    <h2>Resumes</h2>
-    <p>Click below to view or download my resumes:</p>
-    <ul>
+<section id="resumes">
+  <h2>{{ site.data.data.resumes.title }}</h2>
+  <ul>
+    {% for resume in site.data.data.resumes.list %}
       <li>
-        <a href="/customer-service-manager.html">Customer Service Manager Resume</a> |
-        <a href="/assets/resumes/Customer Service Manager_Leesa Moore_2024 Resume.docx" download>Download</a>
+        <a href="{{ resume.file }}" target="_blank">{{ resume.name }}</a>
       </li>
-      <li>
-        <a href="/it-manager.html">IT Manager Resume</a> |
-        <a href="/assets/resumes/IT Manager_Leesa Moore_2024 Resume.docx" download>Download</a>
-      </li>
-    </ul>
-  </section>
-</div>
+    {% endfor %}
+  </ul>
+</section>
+

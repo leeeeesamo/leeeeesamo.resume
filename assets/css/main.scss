@@ -1,11 +1,9 @@
 ---
-
 ---
 
 @charset "utf-8";
 
-
-// define variable with front matter
+// Define variable with front matter
 {% if site.data.data.sidebar.position == 'left' %}
 $resume-order: 2;
 $sidebar-order: 1;
@@ -14,5 +12,33 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
-@import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
-@import "default"; // main partials
+// Import theme-specific skin
+@import "skins/{{ site.theme_skin | default: 'blue' }}";
+
+// Import main partials
+@import "default";
+
+// Styling for the Resumes section
+#resumes {
+  margin: 2rem 0;
+  h2 {
+    font-size: 1.5rem;
+    color: $primary-color;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: 0.5rem;
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
