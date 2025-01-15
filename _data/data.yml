@@ -1,0 +1,127 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+
+sidebar:
+  position: left
+  about: False
+  education: True
+  name: Leesa Moore
+  tagline: Customer Service Manager & IT Professional
+  avatar: profile.png
+  email: lmoore0510@gmail.com
+  phone: (205) 503-9219
+  timezone: America/Chicago
+  citizenship: United States
+  website: https://leeeeesamo.github.io/
+  linkedin: leesa-moore
+  github: leeeeesamo
+  pdf: /assets/resumes/Customer_Service_Resume.pdf
+
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
+
+  interests:
+    title: Interests
+    info:
+      - item: Leadership Development
+      - item: Technology Innovations
+      - item: Reading & Personal Growth
+
+resumes:
+  title: Resumes
+  list:
+    - name: IT Manager Resume
+      file: /assets/resumes/IT_Manager.pdf
+    - name: Customer Service Manager Resume
+      file: /assets/resumes/Customer_Service_Manager.pdf
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Dynamic and results-driven professional with extensive experience in customer service, IT management, and team leadership. Skilled in streamlining operations, managing technical systems, and exceeding client expectations. Passionate about leveraging technology to improve efficiency and drive success.
+
+education:
+  title: Education
+  info:
+    - degree: Associate of Business Administration
+      university: Southern New Hampshire University
+      time: 2022 – Present
+      details: |
+        Achievements:
+          - President’s List
+          - Honor Society Member
+          - GPA: 3.87
+
+    - degree: High School Diploma
+      university: Pell City, AL
+      time: 2002
+
+certifications:
+  title: Certifications
+  list:
+    - name: Honor Society Membership
+      start: November 2022
+      organization: HonorSociety.org
+      credentialurl: https://honorsociety.org/membership
+
+    - name: President’s List Recognition
+      start: Multiple Terms (2022–2023)
+      organization: Southern New Hampshire University
+        
+    - name: Google Ads for Beginners
+      start: March 2021
+      organization: Coursera
+      credentialurl: https://coursera.org/verify/2E6AVZM7AEJS
+
+experiences:
+  title: Experiences
+  info:
+    - role: Reservations Manager
+      time: 2007 – Present
+      company: MultiPoint Communications
+      details: |
+        - Led a highly efficient team in a dynamic environment, ensuring accurate scheduling and flawless execution of conference operations.
+        - Optimized invoicing and payment workflows using platforms such as Authorize.net and Ariba, improving financial accuracy.
+        - Managed month-end financial reporting, including aging and product revenue analysis, to support informed decision-making.
+        - Cultivated excellent communication and organizational skills to consistently exceed client expectations.
+
+    - role: IT Manager
+      time: 2018 – Present
+      company: MultiPoint Communications
+      details: |
+        - Diagnosed and resolved complex technical issues across servers and systems, maintaining uninterrupted operations.
+        - Configured and fine-tuned bridge variables to ensure optimal functionality of communication infrastructure.
+        - Developed and implemented digital marketing strategies, achieving a 15% increase in conversion rates.
+        - Conducted security audits and system enhancements to mitigate vulnerabilities and improve overall performance.
+
+    - role: Virtual Assistant
+      time: 2022 – Present
+      company: Freelance (Fiverr)
+      details: |
+        - Delivered client-centric scheduling and task management solutions, leveraging tools like Calendly and Google Sheets.
+        - Enhanced efficiency through meticulous documentation and streamlined processes for various client needs.
+        - Provided exceptional customer support and technical assistance, ensuring timely issue resolution.
+
+skills:
+  title: Skills & Proficiency
+
+  toolset:
+    - name: Leadership in Customer Service
+      level: 95%
+
+    - name: Technical Problem Solving
+      level: 90%
+
+    - name: Scheduling & Workflow Optimization
+      level: 95%
+
+    - name: Advanced Microsoft Office Suite
+      level: 95%
+
+    - name: Strategic Digital Marketing
+      level: 85%
+
+footer: >
+  Designed with ❤️ by <a href="https://leeeeesamo.github.io/" target="_blank">Leesa Moore</a>

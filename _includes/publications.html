@@ -1,0 +1,16 @@
+{% assign publications = site.data.data.publications %}
+{% if publications %}
+<section class="publications">
+  <h2>Publications</h2>
+  <p>{{ publications.intro | markdownify }}</p>
+  <ul>
+    {% for paper in publications.papers %}
+    <li>
+      <h3><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a></h3>
+      <p><strong>{{ paper.authors }}</strong></p>
+      <p>{{ paper.conference }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

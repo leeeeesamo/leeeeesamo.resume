@@ -52,5 +52,5 @@ en: &DEFAULT_EN
 en-US:
   <<: *DEFAULT_EN
   meta_label                 : "Leesa Moore Portfolio - Professional Insights"
-  powered_by                 : "Created by Leesa Moore with Minimal Mistakes Theme"
+  powered_by                 : "Created by Leesa Moore"
   comment_form_info          : "Leave your thoughts. All required fields are marked with an asterisk (*)."

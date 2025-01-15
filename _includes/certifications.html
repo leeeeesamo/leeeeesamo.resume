@@ -1,0 +1,19 @@
+{% assign certifications = site.data.data.certifications %}
+{% if certifications %}
+<section class="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    {% for certification in certifications.list %}
+    <li>
+      <h3>{{ certification.name }}</h3>
+      <p><strong>{{ certification.organization }}</strong></p>
+      <p>{{ certification.start }} - {{ certification.end | default: "Present" }}</p>
+      <p>{{ certification.details | markdownify }}</p>
+      {% if certification.credentialurl %}
+      <a href="{{ certification.credentialurl }}" target="_blank">View Credential</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

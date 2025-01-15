@@ -1,0 +1,15 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+<section class="projects">
+  <h2>Projects</h2>
+  <p>{{ projects.intro | markdownify }}</p>
+  <ul>
+    {% for project in projects.assignments %}
+    <li>
+      <h3><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h3>
+      <p>{{ project.tagline }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

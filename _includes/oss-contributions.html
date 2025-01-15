@@ -1,0 +1,15 @@
+{% assign oss = site.data.data.oss %}
+{% if oss %}
+<section class="oss-contributions">
+  <h2>Open Source Contributions</h2>
+  <p>{{ oss.intro | markdownify }}</p>
+  <ul>
+    {% for contribution in oss.contributions %}
+    <li>
+      <h3><a href="{{ contribution.link }}" target="_blank">{{ contribution.title }}</a></h3>
+      <p>{{ contribution.tagline }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
